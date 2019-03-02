@@ -1,0 +1,41 @@
+@import "variables";
+
+/* Plugins */
+.box-plugin {
+  .plugin-content {
+    position: relative;
+    padding: 10px;
+    .clearfix();
+    .plugin-image {
+      width: 64px;
+      height: 64px;
+      float: left;
+      margin-right: 10px;
+    }
+    .plugin-description {
+      overflow: hidden;
+      height: 76px;
+      text-overflow: ellipsis;
+      word-wrap: break-word;
+    }
+  }
+  .plugin-author {
+    padding: 10px;
+    position: relative;
+    .plugin-version {
+      position: absolute;
+      bottom: 10px;
+      right: 10px;
+    }
+  }
+  .plugin-actions {
+    padding: 10px;
+    border-top: 1px solid @plugins-border-color;
+    .btn .fa {
+      padding-right: 10px;
+    }
+    .btn.is-loading .fa {
+      padding-right: 0;
+    }
+  }
+}

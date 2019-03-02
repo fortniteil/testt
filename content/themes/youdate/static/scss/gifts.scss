@@ -1,0 +1,106 @@
+.card-gifts {
+  .gifts {
+    .gift {
+      margin-top: 0.5rem;
+      margin-bottom: 0.5rem;
+      img {
+        width: 48px;
+        height: 48px;
+        display: block;
+        margin: 0 auto 0.25rem auto;
+      }
+      .sender {
+        width: 64px;
+        text-align: center;
+        font-size: 10pt;
+        color: $gray-700;
+        line-height: 1.25;
+      }
+    }
+  }
+}
+
+.modal-user-gifts {
+  .gifts {
+    .gift {
+      margin-bottom: 1rem;
+      img {
+        width: 64px;
+        height: 64px;
+        display: inline-block;
+        margin-right: 1rem;
+      }
+      .gift-info {
+        .sender {
+          font-size: 12pt;
+          color: $gray-700;
+          font-weight: bolder;
+          line-height: 1.25;
+          margin-bottom: 0.3rem;
+          &.sender-private {
+            font-style: italic;
+            font-weight: normal;
+            color: $gray-600;
+          }
+        }
+        .message {
+          font-size: 11pt;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+}
+
+.modal-gift-form {
+  .gift-picker {
+    max-height: 420px;
+    overflow-y: auto;
+    .gift-items {
+      margin-bottom: 1rem;
+    }
+    .gift-category {
+      color: $gray-700;
+      font-weight: bolder;
+      margin-bottom: 0.25rem;
+    }
+    .gift-item {
+      flex-grow: 1;
+      position: relative;
+      background: $gray-100;
+      border-radius: $border-radius;
+      margin: 0.4rem 0.25rem;
+    }
+    .gift-input {
+      opacity: 0;
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      left: 0;
+    }
+    .gift-input:checked + .gift {
+      border: 4px solid $primary;
+      border-radius: $border-radius;
+      z-index: 1;
+      color: $primary;
+    }
+    .gift-input:hover + .gift {
+      border: 4px solid lighten($info, 25%);
+      border-radius: $border-radius;
+    }
+    .gift-input:focus + .gift {
+      border: 4px solid $primary;
+      z-index: 2;
+    }
+    .gift {
+      display: block;
+      width: 64px;
+      height: 64px;
+      border: none;
+      cursor: pointer;
+      position: relative;
+      user-select: none;
+      background-size: cover;
+    }
+  }
+}

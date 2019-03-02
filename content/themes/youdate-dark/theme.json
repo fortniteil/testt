@@ -1,0 +1,8 @@
+{
+  "title": "YouDate Dark",
+  "author": "Alexander Kononenko",
+  "website": "https://youdate.hauntd.me/",
+  "version": "1.8",
+  "namespace": "youdateDark",
+  "extends": "youdate"
+}

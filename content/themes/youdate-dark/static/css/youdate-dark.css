@@ -1,0 +1,292 @@
+/** Core **/
+body {
+    background: #121220;
+    color: #fefefe;
+}
+.header {
+    background: #252530;
+    border-color: #131320;
+    color: #fefefe;
+}
+.footer {
+    background: #252530;
+}
+.text-dark {
+    color: #cce !important;
+}
+a.text-dark:hover, a.text-dark:focus {
+    color: #eef !important;
+}
+.text-light {
+    color: #778 !important;
+}
+.text-default {
+    color: #cce !important;
+}
+
+/** Buttons **/
+.btn-secondary {
+    background: #303040;
+    color: #cce;
+}
+.btn-secondary:hover {
+    background: #353545;
+    color: #eee;
+}
+.btn-secondary:focus {
+    background: #252535 !important;
+    color: #eee !important;
+}
+.selectgroup-button {
+    border-color: #303040;
+}
+.selectgroup-input:checked + .selectgroup-button {
+    background: #303040;
+}
+.btn-secondary.disabled, .btn-secondary:disabled {
+    background: #494959;
+    color: #797989;
+}
+.page-link {
+    background: #252530;
+    color: #cce;
+    border-color: #303040;
+}
+.page-link:hover {
+    background: #353545;
+    color: #eee;
+    border-color: #404050;
+}
+.page-item.disabled .page-link {
+    background: #151523;
+    color: #ccc;
+    border-color: #232325;
+}
+
+/** Controls **/
+.form-control {
+    background: #303040;
+    color: #cce;
+}
+.form-control:focus {
+    background: #353545;
+    color: #eee;
+}
+.custom-control-label:before {
+    background: #121220;
+}
+.selectize-input.full {
+    background: #303040;
+    color: #cce !important;
+}
+.selectize-control.single .selectize-input:after {
+    background-color: #303040 !important;
+    color: #cce !important;
+}
+.selectize-input, .selectize-control.single .selectize-input.input-active {
+    background: #303040 !important;
+    color: #cce !important;
+}
+.selectize-dropdown {
+    background: #303040;
+    color: #cce !important;
+    border-color: #467fcf !important;
+}
+.selectize-input.dropdown-active::before {
+    background: #303040 !important;
+}
+.selectize-dropdown .active {
+    background: #121220;
+    color: #fefefe;
+}
+
+/** Alerts **/
+.alert.alert-danger {
+    background: #b20830;
+    border-color: #a3072b;
+    color: #f2d0d0;
+}
+.alert.alert-warning {
+    background: #c58622;
+    border-color: #b37a1e;
+    color: #e0d2bc;
+}
+.alert.alert-success {
+    background: #3ab031;
+    border-color: #349e2c;
+    color: #dbeed9;
+}
+.alert.alert-info {
+    background: #546b71;
+    border-color: #546b71;
+    color: #c7dee6;
+}
+
+/** Dropdown **/
+.dropdown-menu {
+    background: #121220;
+    color: #99a;
+}
+.dropdown-menu .dropdown-divider {
+    border-color: #303040;
+}
+.dropdown-item:hover, .dropdown-item:focus {
+    background: #303040;
+    color: #99a;
+}
+.dropdown-notifications .dropdown-menu .dropdown-item a {
+    color: #99a;
+}
+.dropdown-notifications .dropdown-menu .dropdown-item a:hover {
+    color: #eef;
+}
+
+/** Cards **/
+.card {
+    background: #252530;
+    border-color: #303040;
+}
+.card .card-header {
+    border-color: #303040;
+}
+.directory-list-view .directory-item .card-img-top-wrapper {
+    background: #252530;
+}
+
+/** Badges **/
+.badge-secondary {
+    background: #303040;
+}
+
+/** Navs **/
+.list-group .list-group-item {
+    background: #252530;
+}
+.list-group-transparent .list-group-item {
+    color: #99a;
+}
+.list-group-transparent .list-group-item.active {
+    color: #467fcf;
+}
+
+/** Tables **/
+.table tr td {
+    border-color: #131320;
+}
+
+/** Modals **/
+.modal .modal-content {
+    background: #252530;
+}
+.modal .modal-header,
+.modal .modal-footer {
+    border-color: #131320;
+}
+.modal .close {
+    color: #cce;
+}
+.modal .close:not(:disabled):not(.disabled):hover,
+.modal .close:not(:disabled):not(.disabled):focus {
+    color: #eef;
+}
+
+/** Profile **/
+.profile-info .profile-info-block {
+    border-color: #232330;
+}
+.profile-photos .profile-main-photo .photo-wrapper {
+    background: #252530;
+}
+.profile-main-info .like-toggle {
+    border-color: #131320;
+}
+.profile-photos .profile-photo-item .photo-wrapper {
+    background: #252530;
+}
+.profile-main-info .like-toggle .btn-like-toggle.btn-not-liked {
+    background: #454550;
+}
+.modal-user-gifts .gifts .gift .gift-info .sender {
+    color: #cce;
+}
+.card-gifts .gifts .gift .sender {
+    color: #cce;
+}
+.modal-gift-form .gift-picker .gift-item {
+    background: #252530;
+}
+.modal-gift-form .gift-picker .gift-input:hover + .gift {
+    border-color: #454550;
+}
+.modal-gift-form .gift-picker .gift-input:focus + .gift {
+    border-color: #467fcf;
+}
+.modal-gift-form .gift-picker .badge-default {
+    background: #131320;
+}
+.modal-gift-form .gift-picker .gift-category {
+    color: #cce;
+}
+
+/** Notifications **/
+.notifications-list .notification-item.new {
+    background: #131320;
+}
+.notifications-list a {
+    color: #467fcf;
+}
+
+/** Encounters **/
+.encounters .encounters-queue .queue-item {
+    background: #252530;
+}
+.encounters .encounters-queue .queue-item.active img {
+    border-color: #454550;
+}
+
+/** Spotlight **/
+.spotlight-items-horizontal .spotlight-item {
+    color: #667;
+}
+
+/** Messages **/
+.messages-conversation .conversation-header {
+    background: #303040 !important;
+    border-color: #131320;
+}
+.messages-conversation .conversation-input {
+    background: #252530 !important;
+    border-color: #131320;
+}
+.messages-conversation .conversation-items .date span {
+    border-color: #303040;
+    color: #99a;
+}
+.messages-conversation .conversation-items .item.selected {
+    background: #413f54;
+}
+.messages-conversations .conversations .conversation .name {
+    color: #eee;
+}
+.messages-conversations .conversations .conversation .message {
+    color: #99a;
+}
+.messages-conversation .conversation-items .item.inbox .text {
+    background: #303040 !important;
+    color: #cce !important;
+}
+.messages-conversation .conversation-items .item.sent .text {
+    background: #3a69ab !important;
+    color: #cce !important;
+}
+.col-messages-conversations {
+    border-color: #131320;
+}
+
+/** Landing page **/
+.landing-page-head .subtitle {
+    color: #eee;
+}
+.body-landing-page .content-landing .landing-page-signup-head h1 {
+    color: #fafafa;
+}
